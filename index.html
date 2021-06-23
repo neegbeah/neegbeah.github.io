@@ -23,11 +23,11 @@
                 <div class="navbar-collapse collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto flex-nowrap">
                         <li class="nav-item active">
-                            <a href="about" class="nav-link">Home</a>
+                            <a href="#about" class="nav-link">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Skills</a>
+                            <a href="#skills" class="nav-link active">Skills</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">Apps</a>
@@ -46,47 +46,104 @@
         </nav>
         </header>
 
-        <main class="main">
+        <main class="main" id="about">
           <div class="container" style="height:1300px;">
           <div class="row mt-5 pt-5">
 
+
             <img class="profileImage" src="assets/profile_img.png" alt="Profile Image">
 
+            <div class="col">
             <p class="p-font">Software Engineer, specialized in Mobile Development for 10 years.</p>
               <br>
               <p class="p-font">B.S. in Computer Science in NC A&T State University
               </p>
+            </div>
           </div>
           </div>
         </main>
 
 
         <!-- Skills -->
-        <section class="skills">
+        <section class="skills" id="skills">
           <div id="container">
-            <h2>Programming Languages and Skills</h2>
+            <h2 class="title-section text-center">Programming Languages and Skills</h2>
+            <ul class="feature-icons" >
+              <li class="nav-item fa-code">Android Development:
+                <br>
+                <br>
+
+                Kotlin & Java, Gradle,
+                Android Jetpack, Jetpack Compose,
+                RxJava, Dagger 2, Flow,
+                Kotlin Coroutines, Realm.io
+              </li>
+
+              <li class="nav-item" >
+
+                
+                iOS/iPadOS Development:
+                <br>
+                <br>
+                Objective C & Swift
+                (UIKit & SwiftUI),
+                Cocoapods, Realm.io 
+              </li>
+
+              <li class="nav-item"> & Visual Studio:
+                <br>
+                <br>
+
+                C#, XAML, Xamarin Forms,
+                Embedded Systems
+              </li>
+
+              <li class="nav-item">Hybrid Developement:
+                <br>                <br>
+
+                React Native, Cordova, 
+                Appcelerator Titatium,
+                Ionic Framework
+              </li>
+
+              <li class="nav-item">Web Development:
+                <br>                <br>
+
+                HTML, Javascript, CSS,
+                SASS, Node.js, AngularJS,
+                Anuglar 2
+              </li>
+
+              <li class="nav-item">Server Deployment:
+                <br>                <br>
+
+                Docker, 
+                
+                Linux Distros: Ubuntu Server
+                & Debian
+              </li>
+
+              <li class="nav-item">IaaS (Infracture as a
+                Service):
+                 <br>                <br>
+
+                Microsoft Azure, AWS,
+                DigitalOcean, Parse Open
+                Source Backend, Google Cloud
+              </li>
+
+
+            </ul>
           </div>
         </section>
 
-        <!-- Footer -->
-        <footer
-            class="page-footer font-small blue">
-            <!-- Copyright -->
-            <div class="footer-copyright"> Copyright: Neegbeah Reeves, Designed by Me</div>
-            <!-- Copyright -->
-
+        <footer class="bg-light text-center text-lg-start">
+          <!-- Copyright -->
+          <div class="text-center p-3" style="footer">
+            © 2021 Neegbeah Reeves. Designed and Developed by Me
+          </div>
+          <!-- Copyright -->
         </footer>
-        <!-- Footer -->
 
-
-        <!-- Optional JavaScript; choose one of the two! -->
-
-        <!-- Option 1: Bootstrap Bundle with Popper --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"> </script>
-
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
-                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-                    -->
     </body>
 </html>
