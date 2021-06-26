@@ -64,12 +64,12 @@
 }
 
 .p-font{
-    border: 1px solid #979797;
     font-family: Menlo Regular;
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: -0.09px;
     line-height: 23px;
+    margin-right: auto;
 }
 
 .header .footer {
@@ -82,11 +82,13 @@
   width: 100px;
   height: 100px;
   scale: 50%;
+  margin-right: 16px;
 }
 
 .navbar-brand{
  font-family: SNES-Italic;
  font-size: 64px;
+ margin-block-start: auto;
 }
 
 .nav-item{
