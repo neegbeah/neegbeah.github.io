@@ -12,6 +12,9 @@
     src: local('Menlo Regular'), url('fonts/Menlo-Regular.woff') format('woff');
     }
 
+
+    
+
 /* Containers */
 
 .container {
@@ -41,9 +44,14 @@
     width: 45em;
 }
 
+#content {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #66ffff;
+}
+
 .body{
     background-color:#001429;
-    color: white;
 }
 
 .bg-dark {
@@ -70,7 +78,7 @@
 }
 
 .profile_img {
-  border: 1px solid #979797;
+  border: 5px solid #979797;
   width: 100px;
   height: 100px;
   scale: 50%;

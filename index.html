@@ -5,6 +5,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Custom Font Awesome -->
+        <script src="https://kit.fontawesome.com/2e54c9a5d7.js" crossorigin="anonymous"></script>
+
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link href="css/main.css" rel="stylesheet" type="text/css"  />
@@ -30,7 +33,7 @@
                             <a href="#skills" class="nav-link active">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Apps</a>
+                            <a href="#apps" class="nav-link">Apps</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">Companies</a>
@@ -47,12 +50,10 @@
         </header>
 
         <main class="main" id="about">
-          <div class="container" style="height:1300px;">
-          <div class="row mt-5 pt-5">
+          <div class="container" style="height:700px;">
+            <img class="profileImage" align="left" width="375px" height="475px"src="assets/profile_img.jpg" alt="Profile Image">
 
-
-            <img class="profileImage" src="assets/profile_img.png" alt="Profile Image">
-
+          <div class="col">
             <div class="col">
             <p class="p-font">Software Engineer, specialized in Mobile Development for 10 years.</p>
               <br>
@@ -66,10 +67,13 @@
 
         <!-- Skills -->
         <section class="skills" id="skills">
-          <div id="container">
+          <div id="container row text-center">
             <h2 class="title-section text-center">Programming Languages and Skills</h2>
             <ul class="feature-icons" >
-              <li class="nav-item fa-code">Android Development:
+              <li class="nav-item">
+                <img src="assets/bullet/android.svg">
+
+                Android Development:
                 <br>
                 <br>
 
@@ -80,6 +84,7 @@
               </li>
 
               <li class="nav-item" >
+                <img src="assets/bullet/apple.svg">
 
                 
                 iOS/iPadOS Development:
@@ -90,15 +95,23 @@
                 Cocoapods, Realm.io 
               </li>
 
-              <li class="nav-item"> & Visual Studio:
+              <li class="nav-item">
+
+                <img src="assets/bullet/visual_studio.svg">
+
+                
+                Xamarin & Visual Studio:
                 <br>
                 <br>
 
                 C#, XAML, Xamarin Forms,
-                Embedded Systems
+                Embedded Systems 
               </li>
 
-              <li class="nav-item">Hybrid Developement:
+              <li class="nav-item">
+                <img src="assets/bullet/react-atomic-icon.svg">
+
+                Hybrid Developement:
                 <br>                <br>
 
                 React Native, Cordova, 
@@ -106,7 +119,10 @@
                 Ionic Framework
               </li>
 
-              <li class="nav-item">Web Development:
+              <li class="nav-item">
+                <img src="assets/bullet/web.svg">
+
+                Web Development:
                 <br>                <br>
 
                 HTML, Javascript, CSS,
@@ -114,7 +130,10 @@
                 Anuglar 2
               </li>
 
-              <li class="nav-item">Server Deployment:
+              <li class="nav-item">
+                <img src="assets/bullet/server-cloud.svg">
+
+                Server Deployment:
                 <br>                <br>
 
                 Docker, 
@@ -123,7 +142,10 @@
                 & Debian
               </li>
 
-              <li class="nav-item">IaaS (Infracture as a
+              <li class="nav-item">
+                <img src="assets/bullet/cloud.svg">
+
+                IaaS (Infracture as a
                 Service):
                  <br>                <br>
 
@@ -135,6 +157,14 @@
 
             </ul>
           </div>
+        </section>
+
+        <section class="apps" id="apps">
+          <div id="container row text-center">
+            <h2 class="title-section text-center">Apps</h2>
+
+
+
         </section>
 
         <footer class="bg-light text-center text-lg-start">
