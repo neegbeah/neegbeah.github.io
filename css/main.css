@@ -5,6 +5,9 @@
 
 @font-face { font-family: SNES-Italic; src: url('fonts/SnesItalic-1G9Be.ttf'); } 
 
+@font-face { font-family: Sinhala Sangam MN; src: url('fonts/Sinhala\ Sangam\ MN.ttc'); } 
+
+
 @font-face {
     font-family: 'Menlo Regular';
     font-style: normal;
@@ -66,6 +69,9 @@
     height: 100%;
 
 }
+.card_blue .card{
+    background-color:#001429;
+  }
 
 .card {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -119,6 +125,16 @@
   
 }
 
+.h_iframe iframe {
+    width:100%;
+    height:100%;
+}
+.h_iframe {
+    height: 100%;
+    width:100%;
+}
+
+.box_frame { display:inline-block; }
 
 
 .profile_img {
@@ -144,6 +160,8 @@
 
 .title-section{
     align-self: center;
+    font-family: Sinhala Sangam MN;
+
 }
 
 /* List */
